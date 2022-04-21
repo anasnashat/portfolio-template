@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.projects .title{
+    color: black;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: black;
+    padding: 10px 200px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+/*.nave{*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*    align-content: flex-end;*/
+/*    width: 40%;*/
+/*}*/
+.nave>a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px ;
+    
+}
+.nave>a:hover{
+    color: #716d6d;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 1.8em;
+}
+
+section{
+    padding: 100px 200px;
+    
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: rgb(255,255,255);
+}
+
+.mmi{
+    display: inline-block;
+    color: black;
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 10px;
+    
+ 
+}
+.main h2{
+    color: black;
+    font-size: 1.4em;
+font-weight: 500;
+}
+
+.main h3{
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: black;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 0.9375em 2.1875em;
+    color: #eeeeee;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+}
+.btn:hover{
+    background-color: #2d2b2b;
+    transform: scale(1.1);
+}
+
+
+.soil a{
+    display: inline-block;
+    color: black;
+    padding-right: 50px;
+    font-size: 1.8em;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+.soil a:hover{
+    transform: scale(1.8);
+}
+.cards{
+    background-color: black;
+}
+.title{
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #eeeeee;
+    width: 22.25em;
+    border-radius: 10px;
+    margin-right: 15px;
+    padding: 25px;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    font-size: 8em;
+    text-align: center;
+    color: black;
+
+}
+
+.info h3{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-right: 15px;
+}
+.info{
+    text-align: center;
+}
+.projects .content{
+    margin-top: 30px;
+    
+}
+
+.pro-card{
+    background-color: black;
+    border: solid 1px black;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    
+}
+
+.pro-card:hover{
+    transform: scale(1.1);
+}
+.pro-card:hover .project-img{
+    opacity: 0.9;
+}
+.project-img image{
+    width: 100%;
+
+}
+
+.project-info{
+    padding: 1em;
+}
+
+.project-catogery{
+    font-size: 0.8em;
+    color: #eeeeee;
+    
+}
+
+.project-tittle{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    color: #eeeeee;
+}
+.mor-details{
+    text-decoration: none;
+    color: #eeeeee;
+    
+}
+
+.mor-details:hover{
+    color: #2d2b2b;
+}
+.contact-me{
+    background-color: black;
+    
+}
+.contact-me .icon{
+    font-size: 4.5em;
+}
+
+.contact-me .info p{
+    font-size: 1.5em;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+.footer p{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    
+    .navigation a{
+        padding-left: 10px;
+    }
+    
+    .title{
+        font-size: 1.8em;
+    }
+    
+    section{
+        padding: 80px 20px;
+    }
+    
+    .main h2{
+        font-size: 1em;
+    }
+    
+    .main h3{
+        font-size: 1.6em;
+    }
+    
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    
+    .main h2{
+        font-size: 0.8em;
+    }
+    
+    .main h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+        
+    }}
